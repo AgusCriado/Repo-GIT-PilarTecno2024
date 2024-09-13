@@ -14,6 +14,7 @@ form {
   
   form li + li {
     margin-top: 1em;
+    margin-bottom: 1em;
   }
   
   label {
@@ -22,8 +23,11 @@ form {
     text-align: right;
   }
   
-  input,
-  textarea {
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="reset"],
+textarea {
     font: 1em sans-serif;
     width: 300px;
     box-sizing: border-box;
@@ -48,4 +52,24 @@ form {
     margin-left: 0.5em;
   }
   
+  .btn
+  {
+    
+    margin:0 auto;
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+ 
+  .btn:hover 
+  {
+    background-color: #0056b3;
+}
   
