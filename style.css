@@ -2,8 +2,9 @@ form {
     margin: 0 auto;
     width: 400px;
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #756c6c;
     border-radius: 1em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   }
   
   ul {
